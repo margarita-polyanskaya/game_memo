@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<!-- onload="scrollChatOnBottom();" -->
+<body >
+    <main>
+        <div class="game">
+            <div class="menu">
+                <button class="refresh"><img src="image/refresh.svg" alt="refresh"></button>
+                <button class="pause"><img src="image/pause.svg" alt="pause"></button>
+                <button class="settings"><img src="image/settings.svg" alt="settings"></button>
+                <button class="help"><img src="image/question.svg" alt="help"></button>
+            </div>
+            <div class="memo">
+                <!-- <div id="0"></div>
+                <div id="1" class="defeated"><img src="image/cards/0.svg" alt="0"></div>
+                <div id="2" class=""></div>
+                <div id="3" class=""></div>
+                <div id="4" class=""></div>
+                <div id="5" class="defeated"><img src="image/cards/0.svg" alt="0"></div>
+                <div id="6" class=""></div>
+                <div id="7" class=""></div>
+                <div id="8" class=""></div>
+                <div id="9" class=""></div>
+                <div id="10" class=""></div>
+                <div id="11" class=""></div>
+                <div id="12" class=""></div>
+                <div id="13" class=""></div>
+                <div id="14" class=""></div>
+                <div id="15" class=""></div> -->
+            </div>
+
+        </div>
+        <div class="chat">
+            <div class="chat-body">
+                <div class="message">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio? Rerum, saepe totam earum fuga rem necessitatibus!
+                    </p>
+                </div>
+                <div class="message">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="my-message">
+                    <h3>You</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="message">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="my-message">
+                    <h3>You</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="message">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="my-message">
+                    <h3>You</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+                <div class="message">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa atque sit velit optio?
+                    </p>
+                </div>
+            </div>
+
+            <form class="chat-bottom" method="POST">
+                <div class="line"></div>
+                <div class="chat-send">
+                    <textarea name="#" id="#" cols="30" placeholder="Type a message..."></textarea>
+                    <button type="button"><img src="image/send.svg" alt="send"></button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <div id="myModal" class="modal"> 
+        <div class="modal-block">
+            <button id="plain" class="dif-level">Простой</button>
+            <button id="middle" class="dif-level">Средний</button>
+            <button id="complicated" class="dif-level">Сложный</button>
+        </div>
+        <div class="modal-refresh">
+            <div class="modal-refresh__header">Вы уверенны, что хотите перезапустить игру?</div>
+            <div class="modal-refresh-content">
+                <button id="yes" class="modal-refresh-content__btn">Да</button>
+                <button id="no" class="modal-refresh-content__btn">Нет</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
